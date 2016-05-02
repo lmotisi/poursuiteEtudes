@@ -1,0 +1,262 @@
+/*pr�sentation g�n�rale du site IUT Montreuil*/
+
+/*
+COULEURS : 
+violet : #95268f
+vert : #8cc63e
+vert clair: #d5ebb9
+beige fonc� : #736357
+noir : #000000
+blanc : #ffffff 
+
+POLICES : 
+Arial regular (g�n�ral) 
+georgia (titre des blocs)
+taille : base de 12px ; variation em.
+
+LIENS : 
+couleur : verts
+*/
+body{
+font-family: arial;
+color: #000000;
+font-size: 13px;
+width: 981px;
+margin-left: auto;
+margin-right: auto;
+}
+
+a{
+text-decoration: none;
+color: #000000;
+}
+a:hover{
+color: #8cc63e;
+}
+/*a:visited {
+color: #95268f;
+}*/
+ul {
+
+}
+h1{
+font-family: Georgia;
+font-size: 20px;
+color: #8cc63e;
+font-weight: bold;
+}
+h2{
+font-size: 16px;
+color: #736357;
+font-weight: bold;
+}
+h3, h4, h5, h6{
+font-family: Georgia;
+font-size: 15px;
+color: #736357;
+font-weight: bold;
+}
+p{
+font-size: 13px;
+font-family: Arial;
+color: #000000;
+margin-top: 5px;
+margin-bottom: 9px;
+}
+img{
+border: none;
+}
+
+
+
+/**********HEADER**********/
+header{
+width: 982px;
+height: 192px;
+margin-left: auto;
+margin-right: auto;
+/*margin-bottom: 33px;*/
+
+}
+
+/**********PAGE D'ACCUEIL**********/
+#accueil ul{
+margin: 0px,0px,0px,0px;
+/*margin: 10px,40px,10px,10px;*/
+font-weight: bold;
+}
+.breadcrumb{
+display: block;
+float: float;
+width: 982px;
+background: #ffffff;
+padding-top: 5px;
+border-top: 1px solid #dcd8d5;
+margin-bottom: 15px;
+}
+.breadcrumb a{
+color: #000000;
+}
+
+/**********CONNEXION / DECONNEXION**********/
+#connexion {
+background-color: #defdd2;
+width: 516px;
+height:150px;
+margin: 30px auto;
+padding-top: 1px ;
+padding-left: 18px ;
+padding-bottom: 10px;
+}
+#deconnexion {
+background-color: #defdd2;
+width: 188px;
+margin: 30px auto;
+padding: 10px 18px;
+}
+
+/**********NAVIGATION**********/
+
+#navigation {
+display: inline-block;
+vertical-align: top;
+/*background-color: #eeeeee;*/
+width: 220px;
+height: 220px;
+margin-top: 20px;
+margin-left: 10px;
+font-weight: bold;
+}
+#navigation ul {
+margin-left: -10px;
+}
+
+/**********DESIGN TOUTES PAGES**********/
+.container{
+overflow: auto;
+/*position:relative;*/
+width: 982px;
+margin-left: auto;
+margin-right: auto;
+
+}
+.content {
+display: inline-block;
+background-color: #defdd2;
+width: 690px;
+margin: 30px 0px 30px 18px;	/*Space between two inline-blocks is about 4px*/
+padding: 1px 20px 20px 20px;
+}
+#menuPrincipal {
+text-align: justify;
+}
+.resAjout {
+padding: 12px;
+margin-top: 15px; 
+border: 3px solid #ace67e;
+background-color: #ccf09e;
+}
+.resultat {
+padding: 0px 15px 15px 15px;
+margin-top: 20px; 
+border: 1px solid #666666;
+}
+.resultat h2 {
+background-color: #defdd2;
+margin-top: -10px;
+padding-left: 8px;
+padding-right: 8px;
+}
+h3.resItem{
+display: inline;
+color: #000000;
+font-weight: bold;
+font-size: 13px;
+}
+form.hidden {
+display: inline;
+}
+
+.rechercheFormation {
+padding: 0px 15px 15px 15px;
+margin-top: 20px; 
+border: 1px solid #666666;
+}
+.rechercheFormation h2 {
+background-color: #defdd2;
+margin-top: -10px;
+padding-left: 8px;
+padding-right: 8px;
+}
+
+.validFormation {
+padding: 0px 15px 15px 15px;
+margin-top: 20px; 
+border: 1px solid #666666;
+}
+.validFormation h2 {
+background-color: #defdd2;
+margin-top: -10px;
+padding-left: 8px;
+padding-right: 8px;
+}
+
+table
+{
+border-collapse: collapse;
+}
+td
+{
+border: 1px solid black;
+font-size: 14px;
+color: #555555;
+}
+
+th
+{
+border: 1px solid black;
+font-family: Georgia;
+font-size: 14px;
+color: black;
+}
+
+
+/*.contenu{
+width: 981px;
+overflow:hidden; 
+position: relative;
+}*/
+/**********FOOTER**********/
+footer{
+float: left;
+position: relative;
+width: 982px;
+margin-top: 30px;
+margin-bottom: 30px;
+font-size: 13px;
+text-align: center;
+}
+footer ul{
+text-align: center;
+}
+footer ul li{
+list-style-type: none;
+display: inline;
+}
+footer ul li a{
+border-left: 1px solid #808080;
+color: #808080;
+text-transform: capitalize;
+padding-right: 8px;
+padding-left: 8px;
+}
+footer ul li.first a{
+border-left: none;
+}
+footer ul li a:hover{
+color: #8cc63e;
+}
+
+
+
+
